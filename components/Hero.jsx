@@ -53,7 +53,7 @@ const Hero = () => {
             <div className=' w-[256px]  md:h-[599px] h-[300px] '>
 <Image src={Home} alt='headPhone-home-section' priority={true}
  className='imgclass  md:right-[-1rem] right-[20%]   w-[256px]  sm:h-[599px]'
- width={102} height={681}/>
+ width={256} height={599}/>
 </div>
 
 
@@ -62,19 +62,22 @@ const Hero = () => {
     <div className='grid gap-10 items-center justify-center max-w-5xl mx-auto
      lg:grid-cols-4 md:grid-cols-2 sm:grid-cols-1'>
       <div className='flex items-center justify-center'>
-      <Image src={sponsorOne} alt='Apple-logo-1' width={60} height={2} className='w-[128px]
+      <Image src={sponsorOne} alt='Apple-logo-1' width={128} 
+      height={45} className='w-[128px]
        h-[45px]'/>
            </div>
       <div className='flex items-center justify-center'>
-       <Image src={sponsorTwo} alt='Spotify-logo' width={60} height={2} className='w-[128px]
+       <Image src={sponsorTwo} alt='Spotify-logo' width={128} height={45} className='w-[128px]
        h-[38px]'/>
        </div>
        <div className='flex items-center justify-center'>
-          <Image src={sponsorThree} alt='Amazon-logo' width={60} height={2} className='w-[128px]
+          <Image src={sponsorThree} alt='Amazon-logo'width={128} 
+      height={45} className='w-[128px]
        h-[39px]'/>
        </div>
        <div className='flex items-center justify-center'>
-          <Image src={sponsorFour} alt='Youtube-logo' width={60} height={2} className='w-[128px]
+          <Image src={sponsorFour} alt='Youtube-logo' width={128} 
+      height={45} className='w-[128px]
        h-[28px]'/>
        </div>
 

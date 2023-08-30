@@ -9,14 +9,14 @@ import Choise from "@/components/Choise";
 export default function Home() {
   return (
     <div className="bg-gradient ">
-
-<Hero/>
-<Spec/>
+<header><Hero/></header>
+<main><Spec/>
 <Case/>
 <Discount/>
 <Choise/>
+</main>
+<footer><Footer_Conter/></footer>
 
-<Footer_Conter/>
    </div>
   )
 }

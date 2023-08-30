@@ -5,16 +5,15 @@ import logo from "@/public/logo.png"
 const Footer_Conter = () => {
   return (
     <>
-
+<section className="flex items-center justify-center">
     <div className='flex lg:flex-row flex-col items-center
-     justify-between px-5 py-20'>
-      <div className='w-[64px] h-[124px]'>            
-       </div>
+     justify-between px-5 py-20 lg:w-[1250px] w-full'>
+
 
       <div className='flex flex-col lg:items-start items-center justify-center my-10'>
       <div className="w-[32px] h-[32px] ">
       
-      <Image src={logo} alt="logo" width={15} height={15} className="w-[32px] h-[32px] " />
+      <Image src={logo} alt="logo" width={32} height={32} className="w-[32px] h-[32px] " />
           </div>
       
       </div>
@@ -55,6 +54,7 @@ Our Mision</li>
 </ul>
 
      </div>
+     </section>
      </>
   )
 }

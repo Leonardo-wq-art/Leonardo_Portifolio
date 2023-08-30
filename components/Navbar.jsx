@@ -12,7 +12,7 @@ const Navbar = () => {
   <div className="flex flex-row items-center justify-center ">
     <div className="w-[32px] h-[32px] ">
       
-<Image src={logo} alt="logo-Beats3" width={15} height={15} className="w-[32px] h-[32px] " />
+<Image src={logo} alt="logo-Beats3" width={32} height={32} className="w-[32px] h-[32px] " />
     </div>
   </div>
   <ul className="md:flex hidden text-slate-700  

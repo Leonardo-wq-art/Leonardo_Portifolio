@@ -36,7 +36,8 @@ const Spec = () => {
              max-w-sm text-xs'> Duration 40h</span>
            </div>
                           
-           <div className='flex flex-col  md:mx-20 mx-0  md:text-left text-center my-5 md:items-start items-center 
+           <div className='flex flex-col  md:mx-20 mx-0 
+            md:text-left text-center my-5 md:items-start items-center 
              md:justify-starts justify-center'>  
         <h1 className='
              text-white text-sm md:text-left text-center
@@ -47,7 +48,8 @@ const Spec = () => {
              max-w-sm text-xs'>Fast charge 4.2-AAC</span>
            </div>
                           
-           <div className='flex flex-col  md:mx-5 mx-0 my-5 md:text-left text-center md:items-start items-center 
+           <div className='flex flex-col  md:mx-5 mx-0 my-5
+            md:text-left text-center md:items-start items-center 
              md:justify-starts justify-center'>  
         <h1 className='
              text-white text-sm md:text-left text-center
@@ -69,7 +71,7 @@ const Spec = () => {
     
         <div className='flex flex-col w-full  md:items-start items-center justify-center '>
           <div className='w-[256px]  h-[277px]'>
-     <Image  src={specs} alt="HeadPhone-specs" width={65 } height={103} 
+     <Image  src={specs} alt="HeadPhone-specs" width={256} height={277} 
      className="w-[256px]  h-[277px]"/>
           </div>
 

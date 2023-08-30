@@ -22,7 +22,7 @@ Your Style</span>
        <div className='flex items-center justify-center '>
             <div className="bg-slate-900 flex flex-col items-center justify-center
         h-[180px] w-[200px] pb-16 rounded-3xl">
-          <Image src={ProductOne} alt='Headphone-Black' width={48} height={91}
+          <Image src={ProductOne} alt='Headphone-Black' width={96} height={128}
             className='w-[96px]
             h-[128px]'/>
             <div className="flex-row flex w-full">
@@ -43,7 +43,7 @@ Your Style</span>
        <div className='flex items-center justify-center '>
             <div className="bg-slate-900 flex flex-col items-center justify-center
         h-[180px] w-[200px] pb-16 rounded-3xl">
-          <Image src={ProductTwo} alt='Sponsor-1' width={48} height={91}
+          <Image src={ProductTwo} alt='Sponsor-1' width={96} height={128}
             className='w-[96px]
             h-[128px]'/>
             <div className="flex-row flex w-full">
@@ -64,7 +64,7 @@ Your Style</span>
        <div className='flex items-center justify-center '>
             <div className="bg-slate-900 flex flex-col items-center justify-center
         h-[180px] w-[200px] pb-16 rounded-3xl">
-          <Image src={ProductThree} alt='Headphone' width={48} height={91}
+          <Image src={ProductThree} alt='Headphone' width={96} height={128}
             className='w-[96px]
             h-[128px]'/>
             <div className="flex-row flex w-full">
@@ -84,7 +84,7 @@ Your Style</span>
               <div className='flex items-center justify-center '>
             <div className="bg-slate-900 flex flex-col items-center justify-center
         h-[180px] w-[200px] pb-16 rounded-3xl">
-          <Image src={ProductFour} alt='Sponsor-1' width={48} height={91}
+          <Image src={ProductFour} alt='Sponsor-1' width={96} height={128}
             className='w-[96px]
             h-[128px]'/>
             <div className="flex-row flex w-full">
@@ -104,7 +104,7 @@ Your Style</span>
        <div className='flex items-center justify-center '>
             <div className="bg-slate-900 flex flex-col items-center justify-center
         h-[180px] w-[200px] pb-16 rounded-3xl">
-          <Image src={ProductFive} alt='Sponsor-1' width={48} height={91}
+          <Image src={ProductFive} alt='Sponsor-1'width={96} height={128}
             className='w-[96px]
             h-[128px]'/>
             <div className="flex-row flex w-full">
